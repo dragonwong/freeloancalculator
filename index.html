@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>无息贷款利率计算器</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+	<div id="wechat">
+		<p>如果页面被重新排版导致无法正常使用，或加载太慢，<strong>请点击右上角按钮，选择在浏览器中打开</strong></p>
+	</div>
+
+	<h1>无息贷款利率计算器<span class="tag">0.0.1</span></h1>
+
+	<form id="form" action="">
+		<p class="item">
+			<label>
+				<span class="title">商品价格</span>
+				<input name="c" placeholder="请输入商品价格，如：90000" type="number" />
+			</label>
+		</p>
+		<p class="item">
+			<label>
+				<span class="title">贷款比例</span>
+				<input name="p" placeholder="请输入贷款比例，如：0.5" type="number" />
+			</label>
+		</p>
+		<p class="item">
+			<label>
+				<span class="title">贷款年限</span>
+				<input name="y" placeholder="请输入贷款年限，如：2" type="number" />
+			</label>
+		</p>
+		<p class="item">
+			<label>
+				<span class="title">贷款服务费</span>
+				<input name="s" placeholder="请输入贷款服务费，如：1875" type="number" />
+			</label>
+		</p>
+		<p class="btn-item">
+			<button id="cal" type="button">计算</button>
+		</p>
+	</form>
+
+	<p class="res">您用贷款节省的钱去购买年化收益至少为 <strong class="ben"><span id="num">--</span>%</strong> 的理财产品，可实现盈利。</p>
+
+
+
+
+	<footer class="site-footer">
+		<p class="copyright">All content copyright <a href="http://wangdagen.com">王大根</a> © 2016 • All rights reserved.</p>
+		<p class="contact"><a href="mailto:i@wangdagen.com">Click and contact me</a> (,,•́ . •̀,,)</p>
+	</footer>
+
+	<script src="index.js"></script>
+</body>
+</html>

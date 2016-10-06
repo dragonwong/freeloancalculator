@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+p {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+	padding: 0 5px;
+}
+	.tag {
+		margin-left: 5px;
+		font-size: 12px;
+		background: rgb(64, 186, 18);
+		color: #fff;
+		border-radius: 4px;
+		padding: 0 4px;
+	}
+
+.item {
+	margin-bottom: 1px;
+}
+.item > label {
+	display: flex;
+}
+.title {
+	display: inline-block;
+	width: 90px;
+	background-color: #68c3b7;
+	color: #fff;
+	padding: 5px;
+}
+input {
+	border: none;
+	padding: 0 10px;
+	flex: 1;
+}
+.btn-item {
+	margin-top: 20px;
+	text-align: center;
+}
+.res {
+	background: #f3beaa;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 20px 5px 0;
+}
+.ben {
+	color: red;
+}
+
+.site-footer {
+	color: #888;
+	margin: 40px 0 20px 0;
+	font-size: 12px;
+	text-align: center;
+	padding: 0 5px;
+}
+
+#wechat {
+	font-size: 12px;
+	padding: 10px;
+	color: #b94a48;
+	background: #f2dede;
+	line-height: 20px;
+	display: none;
+}
